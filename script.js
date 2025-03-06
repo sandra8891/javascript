@@ -160,22 +160,135 @@
 // }
 
 
-a=10
-b=40
-c=30
-if(a>=b){
-    if(a>=c){
-        console.log('a is greater')
-    }
-    else{
-        console.log('b is greater')
-    }
-}
-else{
-    if(b>=c){
-        console.log('b is greater')
-    }
-    else{
-        console.log('c is greater')
-    }
-}
+// a=10
+// b=40
+// c=30
+// if(a>=b){
+//     if(a>=c){
+//         console.log('a is greater')
+//     }
+//     else{
+//         console.log('b is greater')
+//     }
+// }
+// else{
+//     if(b>=c){
+//         console.log('b is greater')
+//     }
+//     else{
+//         console.log('c is greater')
+//     }
+// }
+
+
+// while loop
+
+// let i=1
+// while(i<=10){
+//     console.log(i)
+//     i++
+// }
+
+// let i=0
+// while(i<=10){
+//     console.log(i)
+//     i=i+2
+// }
+
+// let i=1
+// while(i<=10){
+//     console.log(i)
+//     i=i+2
+// }
+
+
+// do while loop
+
+// let i=1
+// do{
+//     console.log(i)
+//     i++
+// }
+// while(i<=10)
+
+//for loop
+
+// for(i=1;i<=10;i++){
+//     console.log(i)
+
+// }
+
+// let l=[10,20,30,40]
+// for(i in l){
+//     console.log(i)
+// }
+
+// let l=[10,20,30,40]
+// for(i in l){
+//     console.log(l[i])
+// }
+ 
+// let l=[10,20,30,40]
+// for(i of l){
+//     console.log(i)
+// }
+
+// let d={name:"asd",age:13}
+// for(i in d){
+//     console.log(i)
+// }
+
+// let d={name:"asd",age:13}
+// for (i of d){
+//     console.log(i)
+// }
+
+// let a=prompt("enter a number")
+// console.log(a)
+// console.log(typeof a)
+
+//multiplication table
+// let i=1
+// let b=parseInt(prompt("enter a number"))
+// let n=0
+
+// while(i<=10){
+//     n=i*b
+//     console.log(i+"*"+b+"="+n)
+//     i++
+// }
+
+// for(i=1;i<=10;i++){
+//     n=i*b
+//     console.log(i+"*"+b+"="+n)
+// }
+
+// do{
+//     n=i*b
+//     console.log(i+"*"+b+"="+n)
+//     i++
+// }
+// while(i<=10)
+
+
+
+
+// let a=parseInt(prompt("enter a number"))
+// let b=parseInt(prompt("enter a number"))
+// let i=a
+// while(i<=b){
+//     let j=1
+//     while(j<=10){
+//         console.log(i+"*"+j+"="+(i*j))
+//         j++
+//     }
+//     console.log("")
+//     i++
+// }
+
+// for(i=a;i<=b;i++){
+//     for(j=1;j<=10;j++){
+//         console.log(i+"*"+j+"="+(i*j)) 
+//     }
+//     console.log("")
+// }
