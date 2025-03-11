@@ -292,3 +292,36 @@
 //     }
 //     console.log("")
 // }
+
+
+//sum of digites
+// let n=parseInt(prompt("enter the number"))
+// let s=0
+// let d=0
+// while(n>0){
+//     s=n%10
+//     d=d+s
+//     n=n/10
+// }
+// console.log(d)
+
+//fibinocci
+// let n=parseInt(prompt("enter the number"))
+// let i=1
+// let s=0
+// let b=1
+// let a=0
+// console.log(a)
+// console.log(b)
+// while(i<=n){
+//     s=a+b
+//     console.log(s)
+//     a=b
+//     b=s
+//     i++
+// }
+
+//factorial
+// a=parseInt(prompt)
+
+
