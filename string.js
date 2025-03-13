@@ -72,3 +72,84 @@ const data=[]
 // let a=document.querySelector("#sample")
 // let a=document.querySelector(".s1")
 // console.log(a)
+
+
+
+// let a=document.getElementById('sample')
+// a.setAttribute('style','color:red')
+// a.setAttribute('class','s1')
+// console.log(a.getAttribute('style'));
+// a.classList.add('s2','s3')
+// a.classList.remove('s1')
+
+
+
+// let div=document.querySelector('div')
+// let p=document.createElement('p')
+// p.innerHTML='helloworld'
+// div.appendChild(p)
+
+// div.removechild(p)
+
+// function myFunction(){
+//     let a=window.confirm("press a button!")
+//     console.log(a)
+// }
+
+
+
+// const btn=document.querySelector('button')
+// console.log(btn);
+// btn.onclick=function(){
+//     alert('welcome')
+// }
+
+// btn.onclick=()=>alert("welcome")
+
+
+// const a=document.querySelector('a')
+// a. onclick=() => alert('clicked')
+
+
+// const btn=document.querySelector('button')
+// btn.addEventListener('mouseenter', () => {
+//     const p= document.querySelector('p')
+//     p.style.color='red'
+// })
+
+
+// setTimeout(()=>{
+//     alert("welcome")
+// },2000)
+// console.log('end')
+
+
+
+// const btn=document.querySelector('button')
+// btn.addEventListener('mouseenter', () => {
+//     console.log("clicked")
+
+//     setTimeout(()=>{
+//         alert("welcome")
+//     },2000)
+//     console.log('end')
+// })
+
+
+// setInterval(()=>{
+//     console.log('hello');
+    
+// },1000)
+
+
+// const p=document.querySelector('p')
+// let a=10
+// const x=setInterval(() => {
+//     a--;
+//     p.textContent=a
+//     if(a===0){
+//         clearInterval(x)
+//     }
+    
+// },1000);
+
