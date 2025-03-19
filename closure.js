@@ -94,18 +94,102 @@
 
 //bind
 
-const nameobj={
-    fname:"anil",
-    age:20
-}
+// const nameobj={
+//     fname:"anil",
+//     age:20
+// }
+// const data={
+//     faname:"Anu",
+//     lname:"mol",
+//     fullname:function(age){
+//         console.log(this.fname,age);
+        
+//     }
+// }
+// console.log(data);
+// const d1=data.fullname.bind(nameobj,45)
+// d1()
+
+
+//apply
+// const person={
+//     name:"John"
+// }
+// function data(job,com){
+//     console.log(job,com,this.name);
+    
+// }
+// data.apply(person,["Developer","Google"])
+
+
+
+//oop
+//  class synnefo{
+//     constructor(){
+//         this.a=10
+//         console.log("register");
+        
+//     }
+//     python(){
+//         console.log("python");
+        
+//     }
+//     mern(){
+//         console.log("mern");
+        
+//     }
+//  }
+//  manu=new synnefo()
+//  manu.python()
+//  manu.mern()
+//  console.log(manu);
+ 
+
+//inheritance
+
+//classical inheritance
+// class synnefo{
+//     constructor(){
+//         this.a=10
+//         console.log("register");
+        
+//     }
+//     python(){
+//         console.log("python");
+        
+//     }
+//     mern(){
+//         console.log("mern");
+        
+//     }
+// }
+// class Novavi extends synnefo{
+//     constructor(){
+//         console.log("novavi registration");
+//         super()
+        
+//     }
+//     dev(){
+//         console.log("dev");
+        
+//     }
+// }
+// manu=new synnefo()
+// manu.python()
+// manu.mern()
+// console.log(manu);
+
+// staff=new Novavi();
+// staff.dev();
+
+//prototypal inheritance
+
 const data={
-    faname:"Anu",
-    lname:"mol",
-    fullname:function(age){
-        console.log(this.fname,age);
+    greet:function(){
+        console.log('welcome to all');
         
     }
 }
-console.log(data);
-const d1=data.fullname.bind(nameobj,45)
-d1()
+a1=Object.create(data)
+a1.greet()
+console.log(a1);
