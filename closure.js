@@ -184,12 +184,47 @@
 
 //prototypal inheritance
 
-const data={
-    greet:function(){
-        console.log('welcome to all');
+// const data={
+//     greet:function(){
+//         console.log('welcome to all');
         
-    }
-}
-a1=Object.create(data)
-a1.greet()
-console.log(a1);
+//     }
+// }
+// a1=Object.create(data)
+// a1.greet()
+// console.log(a1);
+
+
+//exception handling
+
+//try,catch,finally,throw
+
+// try{
+//     console.log(a);
+    
+// }
+// catch(error){
+//     console.log('error',error.message);
+    
+// }
+// finally{
+//     console.log('prgm ends');
+    
+// }
+
+
+//throw
+// try{
+//     const a=parseInt('abc')
+//     if(isNaN(a)){
+//         throw new Error('a is not a number')
+//     }
+// }
+// catch(error){
+//     console.log('error',error.message);
+    
+// }
+// finally{
+//     console.log('pgm ends');
+    
+// }
